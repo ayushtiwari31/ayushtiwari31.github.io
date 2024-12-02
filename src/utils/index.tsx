@@ -38,7 +38,7 @@ export const getSanitizedConfig = (
           mode: config?.projects?.github?.mode || 'automatic',
           automatic: {
             sortBy: config?.projects?.github?.automatic?.sortBy || 'stars',
-            limit: config?.projects?.github?.automatic?.limit || 8,
+            limit: config?.projects?.github?.automatic?.limit || 10,
             exclude: {
               forks:
                 config?.projects?.github?.automatic?.exclude?.forks || false,
