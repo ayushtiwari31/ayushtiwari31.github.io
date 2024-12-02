@@ -61,7 +61,7 @@ export const getSanitizedConfig = (
         imageURL: config?.seo?.imageURL,
       },
       social: {
-        linkedin: config?.social?.linkedin.
+        linkedin: config?.social?.linkedin,
         phone: config?.social?.phone,
         email: config?.social?.email,
       },
